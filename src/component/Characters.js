@@ -38,14 +38,14 @@ const Characters = () => {
           disabled={page === 1}
           onClick={() => setPage((oldpage) => oldpage - 1)}
         >
-          Previous
+          previous
         </button>
         <button
          
           disabled={isPreviousData && !data.info.next}
           onClick={() => setPage((oldpage) => oldpage + 1)}
         >
-          Next
+          next
         </button>
       </div>
     </>
